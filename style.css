@@ -200,18 +200,6 @@ a:hover { color: var(--clr-link-hov); }
   font-style: italic;
 }
 
-.hero-note {
-  font-family: var(--font-ui);
-  font-size: .88rem;
-  color: var(--clr-muted);
-  background: rgba(30,26,20,.04);
-  border-left: 3px solid var(--clr-gold);
-  padding: .5rem .85rem;
-  border-radius: 0 var(--radius) var(--radius) 0;
-  display: inline-flex;
-  align-items: center;
-  gap: .45rem;
-}
 
 .note-icon { color: var(--clr-gold); font-size: 1rem; }
 

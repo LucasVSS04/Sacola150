@@ -8,7 +8,6 @@
 const decks = [
   {
     categoria: "Aggro",
-    icon: "⚡",
     listas: [
       {
         nome: "Deck Aggro 01",
@@ -22,7 +21,6 @@ const decks = [
   },
   {
     categoria: "Combo",
-    icon: "♾",
     listas: [
       {
         nome: "Deck Combo 01",
@@ -32,7 +30,6 @@ const decks = [
   },
   {
     categoria: "Control",
-    icon: "🛡",
     listas: [
       {
         nome: "Deck Control 01",
@@ -42,7 +39,6 @@ const decks = [
   },
   {
     categoria: "Midrange",
-    icon: "⚖",
     listas: [
       {
         nome: "Deck Midrange 01",
@@ -50,16 +46,6 @@ const decks = [
       }
     ]
   },
-  {
-    categoria: "Outros",
-    icon: "✦",
-    listas: [
-      {
-        nome: "Deck Outros 01",
-        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9949811"
-      }
-    ]
-  }
 ];
 
 /* ── Renderização ─────────────────────────────────────────── */

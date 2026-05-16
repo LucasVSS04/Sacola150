@@ -137,3 +137,30 @@ document.addEventListener("DOMContentLoaded", function () {
   renderDecks();
   initNavToggle();
 });
+
+/* ── Botão PEDRIN ────────────────────────────────────────── */
+
+const pedrinAudio = new Audio(
+  "PEDRIN.mp3"
+);
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const pedrinBtn =
+    document.getElementById("pedrin-btn");
+
+  if (pedrinBtn) {
+
+    pedrinBtn.addEventListener("click", function () {
+
+      // Reinicia o áudio
+      pedrinAudio.currentTime = 0;
+
+      // Toca o áudio
+      pedrinAudio.play();
+
+    });
+
+  }
+
+});

@@ -10,12 +10,32 @@ const decks = [
     categoria: "Aggro",
     listas: [
       {
-        nome: "Deck Aggro 01",
-        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10029555"
+        nome: "Red Burn",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9879114"
       },
       {
-        nome: "Deck Aggro 02",
-        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10000204"
+        nome: "Grixis Affinity",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9882514"
+      },
+      {
+        nome: "Elves",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9898315"
+      },
+      {
+        nome: "Goblins Kuldotha",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012430"
+      },
+      {
+        nome: "MonoBlue Affinity",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012433"
+      },
+      {
+        nome: "GW Auras",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10023000"
+      },
+      {
+        nome: "Simic Clues",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10023004"
       }
     ]
   },
@@ -23,8 +43,28 @@ const decks = [
     categoria: "Combo",
     listas: [
       {
-        nome: "Deck Combo 01",
-        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9995249"
+        nome: "Restore Balance",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9874485"
+      },
+      {
+        nome: "Simic Neomorph",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012441"
+      },
+      {
+        nome: "Yorion 4C",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10023104"
+      },
+      {
+        nome: "Dredge",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9872841"
+      },
+      {
+        nome: "Mill",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9804988"
+      },
+      {
+        nome: "Abzan Reanimate",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9804743"
       }
     ]
   },
@@ -32,8 +72,24 @@ const decks = [
     categoria: "Control",
     listas: [
       {
-        nome: "Deck Control 01",
-        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9970353"
+        nome: "8 Rack",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9904270"
+      },
+      {
+        nome: "Izzet Control",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012435"
+      },
+      {
+        nome: "Azorius Judgement",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012438"
+      },
+      {
+        nome: "MonoU Control",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10022996"
+      },
+      {
+        nome: "Dimir Control",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9823062"
       }
     ]
   },
@@ -41,8 +97,28 @@ const decks = [
     categoria: "Midrange",
     listas: [
       {
-        nome: "Deck Midrange 01",
-        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9932637"
+        nome: "Selesnya Enchantment",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9879508"
+      },
+      {
+        nome: "Eldrazi",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9919356"
+      },
+      {
+        nome: "Rakdos Midrange",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012425"
+      },
+      {
+        nome: "Esper Artifact",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10012431"
+      },
+      {
+        nome: "Spirits UW",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=10023002"
+      },
+      {
+        nome: "Simic Madness",
+        url: "https://www.ligamagic.com.br/?view=dks/deck&id=9829573"
       }
     ]
   },
@@ -110,7 +186,7 @@ function renderDecks() {
 /* ── Mobile nav toggle ────────────────────────────────────── */
 function initNavToggle() {
   const toggle = document.getElementById("nav-toggle");
-  const list   = document.getElementById("nav-list");
+  const list = document.getElementById("nav-list");
   if (!toggle || !list) return;
 
   toggle.addEventListener("click", function () {
